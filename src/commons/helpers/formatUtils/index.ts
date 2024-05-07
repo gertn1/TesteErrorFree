@@ -35,7 +35,7 @@ export const formatCPF = (value: string) => {
     .replace(/(\d{3})(\d)/, '$1.$2')
     .replace(/(\d{3})(\d{2})$/, '$1-$2');
   return formattedValue;
-};
+}
 
 export const formatCurrency = (value: number) => {
   const formattedValue = value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
