@@ -8,7 +8,6 @@ export const dark: DefaultTheme = {
     primary: '#263238',
     secondary: '#12191D',
     ternary: 'rgb(29, 39, 44)',
-    colorido: '#1111',
 
     blue: '#339af0',
     blueHover: 'rgb(3, 169, 244)',
@@ -92,9 +91,8 @@ export const light: DefaultTheme = {
     text: '#333333', // Texto escuro para contraste com o fundo claro
     text1: '#555555', // Um tom de cinza um pouco mais claro para textos secundários
     primary: '#F2F6F8', // Mantenha a cor primária clara
-    secondary: '#ff6d05', // Uma cor secundária brilhante para elementos de destaque
+    secondary: '#c0b2b4', // Uma cor secundária brilhante para elementos de destaque
     ternary: '#cccccc', // Uma cor terciária neutra
-    colorido: '#ff6d05', // Uma cor brilhante para elementos interativos
 
     blue: '#339af0',
     blueHover: '#1e7ad4', // Um azul um pouco mais escuro para o hover

@@ -9,7 +9,7 @@ declare module 'styled-components' {
       primary: string;
       secondary: string;
       ternary: string;
-      colorido: string; 
+
 
       blue: string;
       blueHover: string;
