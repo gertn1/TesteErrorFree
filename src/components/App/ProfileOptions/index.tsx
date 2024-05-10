@@ -8,6 +8,8 @@ import {
   ContentTheme,
   GoOut,
 } from '~/components/App/ProfileOptions/style.ts';
+import { useContext } from 'react';
+import { ThemeToggleContext } from '~/theme/MyThemeProvider.tsx';
 
 const StyledSwitch = styled(Switch)`
   margin-left: 100px;
@@ -15,12 +17,13 @@ const StyledSwitch = styled(Switch)`
 `;
 
 export const ProfileOptions = () => {
+  const toggleTheme = useContext(ThemeToggleContext);
   return (
     <ContainerProfileOptions>
       <ContentConfig>Configurações do Perfil</ContentConfig>
       <ContentTheme>
         Dark Theme
-        <StyledSwitch />
+        <StyledSwitch onClick={toggleTheme} />
       </ContentTheme>
 
       <BorderGoOut>

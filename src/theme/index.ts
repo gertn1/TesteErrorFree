@@ -89,25 +89,25 @@ export const dark: DefaultTheme = {
 export const light: DefaultTheme = {
   title: 'light',
   colors: {
-    text: '#c6d2d9',
-    text1: '#9ba8b0',
-    primary: '#F2F6F8',
-    secondary: '#ff6d05',
-    ternary: 'rgb(29, 39, 44)',
-    colorido: '#fff',
+    text: '#333333', // Texto escuro para contraste com o fundo claro
+    text1: '#555555', // Um tom de cinza um pouco mais claro para textos secundários
+    primary: '#F2F6F8', // Mantenha a cor primária clara
+    secondary: '#ff6d05', // Uma cor secundária brilhante para elementos de destaque
+    ternary: '#cccccc', // Uma cor terciária neutra
+    colorido: '#ff6d05', // Uma cor brilhante para elementos interativos
 
     blue: '#339af0',
-    blueHover: 'rgb(3, 169, 244)',
-    orange: '',
+    blueHover: '#1e7ad4', // Um azul um pouco mais escuro para o hover
+    orange: '#ff6d05', // Mantenha a cor laranja brilhante para elementos interativos
 
-    success: '#1E641D',
-    error: '#fe0013',
+    success: '#28a745', // Verde para sucesso
+    error: '#dc3545', // Vermelho para erros
 
-    gray100: '#F2F4F6',
-    gray200: '#D9D9D9',
-    gray300: '#898989',
-    gray400: '#666666',
-    gray500: '#333333',
+    gray100: '#f8f9fa', // Escala de cinza para diferentes níveis de profundidade
+    gray200: '#e9ecef',
+    gray300: '#dee2e6',
+    gray400: '#ced4da',
+    gray500: '#adb5bd',
 
     opacity100: 'rgba(0, 0, 0, 0.04)',
     opacity200: 'rgba(0, 0, 0, 0.1)',
