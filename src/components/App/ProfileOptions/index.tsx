@@ -9,7 +9,8 @@ import {
   GoOut,
 } from '~/components/App/ProfileOptions/style.ts';
 import { useContext } from 'react';
-import { ThemeToggleContext } from '~/theme/MyThemeProvider.tsx';
+import { ThemeToggleContext } from '../../../context/ThemeToggleContext'; 
+
 
 const StyledSwitch = styled(Switch)`
   margin-left: 100px;
