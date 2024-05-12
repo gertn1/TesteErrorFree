@@ -1,8 +1,5 @@
 import { Switch } from 'antd';
 import styled from 'styled-components';
-// import { useContext } from 'react';
-// import { ThemeContext } from '~/theme/MyThemeProvider.tsx';
-import { useTheme } from '../../../theme/MyThemeProvider'
 
 import {
   BorderGoOut,
@@ -11,29 +8,27 @@ import {
   ContentTheme,
   GoOut,
 } from '~/components/App/ProfileOptions/style.ts';
-
-
+import { useContext } from 'react';
+import { ThemeToggleContext } from '~/theme/MyThemeProvider.tsx';
 
 const StyledSwitch = styled(Switch)`
   margin-left: 100px;
   transform: scale(0.7);
 `;
 
-
-  export function ProfileOptions() {
-    const { toggleTheme, theme } = useTheme();
-
+export const ProfileOptions = () => {
+  const toggleTheme = useContext(ThemeToggleContext);
   return (
     <ContainerProfileOptions>
       <ContentConfig>Configurações do Perfil</ContentConfig>
       <ContentTheme>
         Dark Theme
-        <StyledSwitch onClick={toggleTheme}>mpoo {theme.title} </StyledSwitch>
+        <StyledSwitch onClick={toggleTheme} />
       </ContentTheme>
 
       <BorderGoOut>
-        <GoOut>Sair</GoOut>  
+        <GoOut>Sair</GoOut>
       </BorderGoOut>
-    </ContainerProfileOptions>  
+    </ContainerProfileOptions>
   );
 };
