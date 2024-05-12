@@ -88,14 +88,14 @@ export const dark: DefaultTheme = {
 export const light: DefaultTheme = {
   title: 'light',
   colors: {
-    text: '#333333', // Texto escuro para contraste com o fundo claro
-    text1: '#555555', // Um tom de cinza um pouco mais claro para textos secundários
-    primary: '#F2F6F8', // Mantenha a cor primária clara
-    secondary: '#c0b2b4', // Uma cor secundária brilhante para elementos de destaque
-    ternary: '#cccccc', // Uma cor terciária neutra
+    text: '#263238', // Texto escuro para contraste com o fundo claro
+    text1: '#263238', // Um tom de cinza um pouco mais claro para textos secundários
+    primary: '#f7fbfc', // Mantenha a cor primária clara
+    secondary: '#cfcfcf', // Uma cor secundária brilhante para elementos de destaque
+    ternary: '#f7fbfc', // Uma cor terciária neutra
 
     blue: '#339af0',
-    blueHover: '#1e7ad4', // Um azul um pouco mais escuro para o hover
+    blueHover: '#12233', // Um azul um pouco mais escuro para o hover
     orange: '#ff6d05', // Mantenha a cor laranja brilhante para elementos interativos
 
     success: '#28a745', // Verde para sucesso
