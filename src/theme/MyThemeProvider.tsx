@@ -6,7 +6,7 @@ import GlobalStyle from './globalStyle';
 import { ThemeToggleContext } from '../context/ThemeToggleContext'; 
 
 export const MyThemeProvider = ({ children }: any) => {
-  const initialTheme = localStorage.getItem("theme") === "dark" ? dark : light;
+  const initialTheme = localStorage.getItem("theme") === "light" ? light : dark;
   const [theme, setTheme] = useState(initialTheme);
 
   useEffect(() => {

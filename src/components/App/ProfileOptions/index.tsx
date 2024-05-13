@@ -10,6 +10,7 @@ import {
 } from '~/components/App/ProfileOptions/style.ts';
 import { useContext } from 'react';
 import { ThemeToggleContext } from '../../../context/ThemeToggleContext'; 
+import { useEffect, useState } from 'react';
 
 
 const StyledSwitch = styled(Switch)`
@@ -19,12 +20,24 @@ const StyledSwitch = styled(Switch)`
 
 export const ProfileOptions = () => {
   const toggleTheme = useContext(ThemeToggleContext);
+  const [isSwitchChecked, setIsSwitchChecked] = useState(false);
+  useEffect(() => {
+    const isLightTheme = localStorage.getItem("theme") === "dark";
+  
+    setIsSwitchChecked(isLightTheme);
+  }, []);
+
+  const handleToggleTheme = () => {
+    toggleTheme();
+    setIsSwitchChecked(prevState => !prevState);
+  };
+
   return (
     <ContainerProfileOptions>
       <ContentConfig>Configurações do Perfil</ContentConfig>
       <ContentTheme>
         Dark Theme
-        <StyledSwitch onClick={toggleTheme} />
+        <StyledSwitch checked={isSwitchChecked} onChange={handleToggleTheme} />
       </ContentTheme>
 
       <BorderGoOut>
