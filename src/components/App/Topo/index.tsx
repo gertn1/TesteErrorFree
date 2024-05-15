@@ -32,6 +32,6 @@ export const Topo = ({ onHamburguerClick }: { onHamburguerClick: () => void }) =
       </ProfileContainer>
     </TopoContainer>
 
-    ////////////// silmara pedro 
+
   );
 };

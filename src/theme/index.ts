@@ -100,19 +100,14 @@ export const light: DefaultTheme = {
 
     success: '#28a745', // Verde para sucesso
     error: '#dc3545', // Vermelho para erros
-    success: '#28a745', // Verde para sucesso
-    error: '#dc3545', // Vermelho para erros
+
 
     gray100: '#f8f9fa', // Escala de cinza para diferentes níveis de profundidade
     gray200: '#e9ecef',
     gray300: '#dee2e6',
     gray400: '#ced4da',
     gray500: '#adb5bd',
-    gray100: '#f8f9fa', // Escala de cinza para diferentes níveis de profundidade
-    gray200: '#e9ecef',
-    gray300: '#dee2e6',
-    gray400: '#ced4da',
-    gray500: '#adb5bd',
+
 
     opacity100: 'rgba(0, 0, 0, 0.04)',
     opacity200: 'rgba(0, 0, 0, 0.1)',
