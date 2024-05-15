@@ -6,6 +6,8 @@ export const ContainerProfileOptions = styled.div`
   width: 100%;
   font-size: ${({ theme }) => theme.fontSizes[2]};
   color: ${({ theme }) => theme.colors.text1};
+  background: ${({ theme }) => theme.colors.secondary};
+  
 `;
 
 const ProfileOption = styled.div`
