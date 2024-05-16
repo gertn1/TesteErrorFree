@@ -1,4 +1,6 @@
-import { businessOutline, cashOutline, homeOutline, peopleOutline } from "ionicons/icons";
+import { businessOutline, cashOutline, homeOutline, peopleOutline, personAddOutline } from 'ionicons/icons';
+
+import NewPerson from '~/pages/NewPerson.tsx';
 
 export const menuItems = [
   {
@@ -22,5 +24,9 @@ export const menuItems = [
     label: 'CONTAS',
     url: '/accounts',
   },
-  
+  {
+    icon: personAddOutline,
+    label: 'USUÁRIOS',
+    url: '/new-person',
+  },
 ];
