@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 
-export type ButtonColor = 'primary' | 'secondary';
+export type ButtonColor = 'primary' | 'secondary' | 'terciary';
 
 export interface Props {
   color?: ButtonColor;

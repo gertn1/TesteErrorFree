@@ -1,7 +1,7 @@
 import React, { FC, forwardRef, useCallback, useState } from 'react';
 import { InputRoot } from '~/components/InputRoot';
 import { Props } from '~/@types/components/text-field.ts';
-import {  NewInputContent } from "./style";
+import { NewInputContent} from "./style";
 
 export const TextFieldForm: FC<Props> = forwardRef((props, ref) => {
   const [inputType, setInputType] = useState(props.type);

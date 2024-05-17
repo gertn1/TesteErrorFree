@@ -14,6 +14,7 @@ declare module 'styled-components' {
       blue: string;
       blueHover: string;
       orange: string;
+      orangeHover:string;
       success: string;
       error: string;
 

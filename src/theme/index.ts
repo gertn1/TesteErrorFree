@@ -11,7 +11,8 @@ export const dark: DefaultTheme = {
 
     blue: '#339af0',
     blueHover: 'rgb(3, 169, 244)',
-    orange: ' rgb(255, 152, 0)',
+    orange: '#F4672C',
+    orangeHover: '#D15A1C',
 
     success: '#1E641D',
     error: '#E3213E',
@@ -88,32 +89,33 @@ export const dark: DefaultTheme = {
 export const light: DefaultTheme = {
   title: 'light',
   colors: {
-    text: '#263238', // Texto escuro para contraste com o fundo claro
-    text1: '#263238', // Um tom de cinza um pouco mais claro para textos secundários
-    primary: '#f7fbfc', // Mantenha a cor primária clara
-    secondary: '#cfcfcf', // Uma cor secundária brilhante para elementos de destaque
-    ternary: '#f7fbfc', // Uma cor terciária neutra
+    text: "#263238",
+    text1: "#263238",
+    primary: "#f7fbfc",
+    secondary: "#cfcfcf",
+    ternary: "#f7fbfc",
 
-    blue: '#339af0',
-    blueHover: '#cfcfcf', // Um azul um pouco mais escuro para o hover
-    orange: '#ff6d05', // Mantenha a cor laranja brilhante para elementos interativos
+    blue: "#339af0",
+    blueHover: "#cfcfcf",
+    orange: "#ff6d05",
+    orangeHover: '#D15A1C',
 
-    success: '#28a745', // Verde para sucesso
-    error: '#dc3545', // Vermelho para erros
-
-
-    gray100: '#f8f9fa', // Escala de cinza para diferentes níveis de profundidade
-    gray200: '#e9ecef',
-    gray300: '#dee2e6',
-    gray400: '#ced4da',
-    gray500: '#adb5bd',
+    success: "#28a745",
+    error: "#dc3545",
 
 
-    opacity100: 'rgba(0, 0, 0, 0.04)',
-    opacity200: 'rgba(0, 0, 0, 0.1)',
-    opacity300: 'rgba(0, 0, 0, 0.3)',
-    opacity400: 'rgba(0, 0, 0, 0.5)',
-    opacity500: 'rgba(0, 0, 0, 0.9)',
+    gray100: "#f8f9fa",
+    gray200: "#e9ecef",
+    gray300: "#dee2e6",
+    gray400: "#ced4da",
+    gray500: "#adb5bd",
+
+
+    opacity100: "rgba(0, 0, 0, 0.04)",
+    opacity200: "rgba(0, 0, 0, 0.1)",
+    opacity300: "rgba(0, 0, 0, 0.3)",
+    opacity400: "rgba(0, 0, 0, 0.5)",
+    opacity500: "rgba(0, 0, 0, 0.9)",
   },
   fontSizes: {
     1: '1.2rem',

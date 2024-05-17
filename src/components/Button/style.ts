@@ -27,10 +27,21 @@ export const ButtonContainer = styled.button`
         box-shadow: ${({ theme }) => theme.shadows[1]};
     }
     &.ui-button--terciary {
+
+        width: 30.13331rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
         background: ${({ theme }) => theme.colors.orange};
         color: ${({ theme }) => theme.colors.gray200};
         border-radius: ${({ theme }) => theme.radius[2]};
         box-shadow: ${({ theme }) => theme.shadows[1]};
+        font-size: ${({ theme }) => theme.fontSizes[4]};
+
+        &:hover {
+            background: ${({ theme }) => theme.colors.orangeHover}; 
+            color: ${({ theme }) => theme.colors.gray100}; 
+        }
     }
     
 
