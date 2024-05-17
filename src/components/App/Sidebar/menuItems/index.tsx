@@ -1,4 +1,4 @@
-import { businessOutline, cashOutline, homeOutline, peopleOutline } from "ionicons/icons";
+import { businessOutline, cashOutline, fingerPrintOutline, homeOutline, peopleOutline } from "ionicons/icons";
 
 export const menuItems = [
   {
@@ -22,5 +22,9 @@ export const menuItems = [
     label: 'CONTAS',
     url: '/accounts',
   },
-  
+  {
+    icon: fingerPrintOutline,
+    label: 'NOVO PARCEIRO',
+    url: '/create-partner',
+  },
 ];

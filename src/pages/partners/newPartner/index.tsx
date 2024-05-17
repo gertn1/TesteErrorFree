@@ -86,7 +86,11 @@ export const NewPartner: FC = () => {
           {errors.registrationNumber && <span className="error">{errors.registrationNumber.message}</span>}
         </div>
         <div>
-          <TextField label="E-mail" placeholder="E-mail" hasError={!!errors.email} {...register('email')} />
+          <TextField
+            label="E-mail"
+            placeholder="E-mail"
+            hasError={!!errors.email}
+            {...register('email')} />
           {errors.email && <span className="error">{errors.email.message}</span>}
         </div>
         <div>

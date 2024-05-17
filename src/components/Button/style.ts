@@ -26,6 +26,13 @@ export const ButtonContainer = styled.button`
         border-radius: ${({ theme }) => theme.radius[2]};
         box-shadow: ${({ theme }) => theme.shadows[1]};
     }
+    &.ui-button--terciary {
+        background: ${({ theme }) => theme.colors.orange};
+        color: ${({ theme }) => theme.colors.gray200};
+        border-radius: ${({ theme }) => theme.radius[2]};
+        box-shadow: ${({ theme }) => theme.shadows[1]};
+    }
+    
 
     &:hover {
         background: ${({ theme }) => theme.colors.secondary};

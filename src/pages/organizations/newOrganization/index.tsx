@@ -11,6 +11,7 @@ import { Company } from '~/services/api/companies/Company';
 import CompanyService from '~/services/api/companies/CompanyService';
 import { ButtonContainer, ContainerNewOrganization, ContentNewOrganization } from '../style';
 
+
 const schema = z.object({
   name: z.string().min(3, 'Deve ter no mínimo 3 caracteres'),
   description: z.string().min(1, 'é obrigatório'),
